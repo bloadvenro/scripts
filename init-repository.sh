@@ -116,7 +116,7 @@ yarn add -D lint-staged
 
 cat <<- EOF > lint-staged.config.js
 	module.exports = {
-		"*.+(js|tsx?)": ["eslint --fix", "prettier --write"]
+		"*.js": ["eslint --fix", "prettier --write"]
 	}
 EOF
 
